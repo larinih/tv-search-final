@@ -1,6 +1,8 @@
 import renderSearchForm from './components/SearchForm'
 import './style.css'
 
+
+
 const $ = document.querySelector.bind(document)
 
 /**

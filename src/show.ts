@@ -18,6 +18,8 @@ const searchTVShow = async (id: string) => {
         const show = getTvShow(data)
         const app = <HTMLDivElement>$('#app')
         renderTVShowDetails(show, app)
+    } else {
+        `<div class="loader"></div>`
     }
 }
 

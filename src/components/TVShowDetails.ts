@@ -2,8 +2,12 @@ import TVShow from "../modules/TVShow"
 
 const imageNotFound = '/img/image_not_found.png'
 
+
+
 const renderTVShowDetails = (show: TVShow, container: HTMLElement) => {
+    
     const htmlContent = `
+    
         <div id="show-container">
             <div id="image-container">
                 <img src="${show.imageUrl || imageNotFound}" alt="${show.name}">
@@ -22,6 +26,7 @@ const renderTVShowDetails = (show: TVShow, container: HTMLElement) => {
                 <a id="backlink" href="javascript:history.back()">Voltar</a>
             </div>
         </div>
+   
     `
     container.innerHTML = htmlContent
 }

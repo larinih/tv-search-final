@@ -2,7 +2,10 @@ import TVShow from "../modules/TVShow";
 
 const imageNotFound = '/img/image_not_found.png'
 
+
+
 const renderTVShowCard = (show: TVShow, container: HTMLElement) => {
+   
     const htmlContent = `
         <div class="tv-card">
             <a id="modal-${show.id}" href="show.html?id=${show.id}">
@@ -15,6 +18,9 @@ const renderTVShowCard = (show: TVShow, container: HTMLElement) => {
         </div>
     `
     container.innerHTML += htmlContent
+
+  
 }
+
 
 export default renderTVShowCard
