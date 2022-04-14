@@ -1,202 +1,202 @@
 @font-face {
-    font-family: 'title';
-    src: url(../fonts/Raleway-SemiBold.ttf);
+  font-family: 'title';
+  src: url(../fonts/Raleway-SemiBold.ttf);
 }
 
 @font-face {
-    font-family: 'regular';
-    src: url(../fonts/Raleway-Regular.ttf);
+  font-family: 'regular';
+  src: url(../fonts/Raleway-Regular.ttf);
 }
 
 :root {
-    --bg-color: #24252a;
-    --btn-color: #038aff;
+  --bg-color: #24252a;
+  --btn-color: #038aff;
 }
 
 body {
-    margin: 0;
-    background-color: var(--bg-color);
+  margin: 0;
+  background-color: var(--bg-color);
 }
 
 #app {
-    width: 70%;
-    margin: auto;
+  width: 70%;
+  margin: auto;
 }
 
 #search-form {
-    text-align: center;
-    margin: 50px 0 20px 0;
+  text-align: center;
+  margin: 50px 0 20px 0;
 }
 
 #search-form input {
-    width: 400px;
-    height: 30px;
-    border: 2px solid #ccc;
-    border-radius: 15px;
-    text-align: center;
-    margin-right: 10px;
-    font-family: 'regular';
-    font-size: 100%;
+  width: 400px;
+  height: 30px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  text-align: center;
+  margin-right: 10px;
+  font-family: 'regular';
+  font-size: 100%;
 }
 
 #search-form button {
-    border: none;
-    border-radius: 10px;
-    padding: 10px 20px;
-    color: white;
-    background-color: var(--btn-color);
-    font-family: 'title';
-    font-size: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  background-color: var(--btn-color);
+  font-family: 'title';
+  font-size: 100%;
 }
 
 #result-area {
-    width: 80%;
-    margin: 50px auto;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .tv-card {
-    width: 33%;
-    margin-bottom: 20px;
+  width: 33%;
+  margin-bottom: 20px;
 }
 
 .tv-card h3 {
-    font-family: 'title';
-    color: white;
+  font-family: 'title';
+  color: white;
 }
 
 .show-banner img {
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #show-container {
-    display: flex;
-    background-color: white;
-    padding: 20px;
-    border-radius: 20px;
-    width: 60%;
-    margin: 50px auto;
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  width: 60%;
+  margin: 50px auto;
 
-    
+  
 }
 
 
 
 #image-container {
-    width: 50%;
-    text-align: center;
-    background-color: var(--bg-color);
-    padding: 18px 0;
-    border-radius: 15px;
+  width: 50%;
+  text-align: center;
+  background-color: var(--bg-color);
+  padding: 18px 0;
+  border-radius: 15px;
 }
 
 #image-container img {
-    width: 90%;
+  width: 90%;
 }
 
 #details-container {
-    width: 50%;
-    font-family: 'regulatr';
-    padding: 0 20px;
-    position: relative;
+  width: 50%;
+  font-family: 'regulatr';
+  padding: 0 20px;
+  position: relative;
 }
 
 .detail-title {
-    font-family: 'title';
+  font-family: 'title';
 }
 
 #backlink {
-    display: block;
-    background-color: var(--btn-color);
-    color: white;
-    font-family: 'title';
-    width: 100px;
-    text-align: center;
-    padding: 10px 20px;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 0;
+  display: block;
+  background-color: var(--btn-color);
+  color: white;
+  font-family: 'title';
+  width: 100px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
 }
 
 @media screen and (max-width: 600px) {
-    #app {
-        width: 100%;
-    }
+  #app {
+      width: 100%;
+  }
 
-    #search-form input,
-    #search-form button {
-        display: block;
-        margin: auto;
-    }
+  #search-form input,
+  #search-form button {
+      display: block;
+      margin: auto;
+  }
 
-    #search-form input {
-        width: 300px;
-        margin-bottom: 20px;
-    }
+  #search-form input {
+      width: 300px;
+      margin-bottom: 20px;
+  }
 
-    .tv-card {
-        width: 100%;
-    }
+  .tv-card {
+      width: 100%;
+  }
 
-    .show-banner img {
-        width: 100%;
-    }
+  .show-banner img {
+      width: 100%;
+  }
 
-    #image-container {
-        width: 60%;
-        text-align: center;
-        background-color: var(--bg-color);
-        padding: 18px 0;
-        border-radius: 15px;
-    }
-    
-    #image-container img {
-        width: 90%;
-        padding: 18px 0 18px;
-    }
+  #image-container {
+      width: 60%;
+      text-align: center;
+      background-color: var(--bg-color);
+      padding: 18px 0;
+      border-radius: 15px;
+  }
+  
+  #image-container img {
+      width: 90%;
+      padding: 18px 0 18px;
+  }
 
-    #details-container {
-        width: 50%;
-        font-family: 'regulatr';
-        font-size: 13px;
-        padding: 0 20px;
-        position: relative;
-    }
+  #details-container {
+      width: 50%;
+      font-family: 'regulatr';
+      font-size: 13px;
+      padding: 0 20px;
+      position: relative;
+  }
 
-    .detail-title {
-        font-family: 'title';
-    }
+  .detail-title {
+      font-family: 'title';
+  }
 
-    #backlink {
-        display: block;
-        background-color: var(--btn-color);
-        color: white;
-        font-family: 'title';
-        width: 50px;
-        text-align: center;
-        padding: 10px 20px;
-        border-radius: 5px;
-        position: absolute;
-        bottom: 0;
-    }
+  #backlink {
+      display: block;
+      background-color: var(--btn-color);
+      color: white;
+      font-family: 'title';
+      width: 50px;
+      text-align: center;
+      padding: 10px 20px;
+      border-radius: 5px;
+      position: absolute;
+      bottom: 0;
+  }
 }
 
 .loader {
-  border: 16px solid #f3f3f3; /* Light grey */
-  border-top: 16px solid #3498db; /* Blue */
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  animation: spin 2s linear infinite;
+border: 16px solid #f3f3f3; /* Light grey */
+border-top: 16px solid #3498db; /* Blue */
+border-radius: 50%;
+width: 120px;
+height: 120px;
+animation: spin 2s linear infinite;
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
 }
